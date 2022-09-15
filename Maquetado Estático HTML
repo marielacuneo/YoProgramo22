@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MAQUETACION </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style> 
+      * {margin: 0;padding: 0;}   
+      html {background-color: black;}
+      body{width: 750px;height: 750px ;margin: auto;background-color: rgb(178, 243, 243);}
+      header{width: 750px;height: 250px ;margin: auto;background-color:rgb(223, 137, 33)}
+      nav{width: 750px;height: 50px ;margin: auto;background-color:rgb(226, 226, 187)}
+      main{width: 750px;height: 400px ;margin: auto;background-color:rgb(196, 216, 196)}
+      footer{width: 750px;height: 50px ;margin: auto;background-color:rgb(221, 183, 189)}
+      section#banner{width: 500px ;height: 250px;float: left ;background-color: rgb(214, 135, 135);}
+      section#logo{width: 250px ;height: 125px;float: left ;background-color:gray;}
+      section#login{width: 250px ;height: 125px;float: left ;background-color: rgb(43, 134, 187);}
+      article{width: 550px ;height: 400px;float: left ;background-color: rgb(67, 158, 161);}
+      aside#righ{width: 100px ;height: 400px;float: left ;background-color: rgb(43, 134, 187);}
+      aside#left{width: 100px ;height: 400px;float: left ;background-color: rgb(136, 165, 123);}
+
+
+
+    </style>
+  </head>
+  <body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <header>
+      <section id="banner">
+        <p>#YoProgramo3</p>
+      </section>
+      <section id="logo">
+        <p>Logo y Redes Sociales</p>
+      </section>
+      <section id="login">
+        <p>Login</p>
+        
+      </section>
+      
+    </header>
+
+
+    <nav>
+      <p>Foto y Resumen de Perfil</p>
+    </nav>
+    <main> 
+      <aside id="left"></aside>
+      <article>
+        <p>Experiencia Laboral y Educacion</p>
+      </article>
+      <aside id="righ"></aside>
+    </main>
+     
+    <footer></footer>
+  
+  
+  
+  </body>
+
+
+
+
+
+</html>
